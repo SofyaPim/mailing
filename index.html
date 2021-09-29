@@ -1,12 +1,13 @@
- <!DOCTYPE html
+<!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>HTML Template</title>
+    <title>Mail3 with img</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
         body {
@@ -43,7 +44,7 @@
             font-family: 'Raleway', sans-serif !important;
 
             margin: auto;
-        
+
         }
 
         table.main {
@@ -59,7 +60,7 @@
         .phone,
         .email {
             margin: 16px;
-            /* padding-right: 32px; */
+
             cursor: pointer;
             font-weight: 300;
             padding-bottom: 0px;
@@ -70,13 +71,12 @@
         }
 
         .social-icon {
-            /* margin: 16px; */
-            /* float: left; */
+
             display: inline-block;
         }
 
         .link {
-          
+
             text-decoration: none;
             display: block;
             color: #5333ED;
@@ -84,7 +84,7 @@
             border: 1px solid #5333ED;
             border-radius: 10px;
             cursor: pointer;
-            margin: 16px;
+            width: 220px;
             margin-top: 0px;
             margin-left: 0px;
         }
@@ -99,7 +99,14 @@
             line-height: 32px;
         }
 
-       td.mobile-img {
+        /* .desktop {
+
+
+            display: block !important;
+
+        } */
+
+        .mobile-text {
             display: none;
         }
 
@@ -119,12 +126,24 @@
 
         }
 
-        td.image-td {
-            padding-left: 64px;
+        img {
+            outline: none;
+            text-decoration: none;
+            border: none;
+            -ms-interpolation-mode: bicubic;
+            max-width: 100% !important;
+            margin: 0;
+            padding: 0;
+            display: block;
         }
 
 
-        @media (max-width: 480px) {
+
+        @media (max-width: 620px) {
+            .table-600 {
+                width: 280px !important;
+            }
+
             .greeting {
                 font-size: 18px;
                 line-height: 18px;
@@ -144,18 +163,18 @@
                 padding-left: 16px;
             }
 
-            td.image-td {
+            .desktop {
 
-                padding: 10px;
+
                 display: none;
 
             }
 
-           td.mobile-img {
-                display: block;
+            .mobile-text {
+                display: block !important;
             }
 
-           
+
 
             td.button {
                 margin: auto;
@@ -166,7 +185,7 @@
             }
 
             .text {
-               
+
                 padding-right: 16px;
             }
 
@@ -177,97 +196,180 @@
                 line-height: 14px;
             }
         }
-
     </style>
 </head>
 
 <body style="margin: 0; padding: 0; ">
     <div style="font-size:0px; opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое письмо</div>
-    <table bgcolor="#F2F5FE" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#FFFFFE">
+    <table bgcolor="#F2F5FE" cellpadding="0" cellspacing="0" width="600" class="table-600" align="center"
+        bgcolor="#FFFFFE">
         <tr>
             <td align="center" style="padding: 0px;">
                 <table class="main table-desktop" cellpadding="0" cellspacing="0" width="90%" bgcolor="#FFFFFE" box>
                     <thead style="margin: auto;">
                         <tr>
-                            <td class="greeting" colspan="3" style=" padding-bottom: 32px; padding-left: 16px; padding-right: 16px; background-color:  #1CB7D0;  font-style: normal; font-weight: bold; color: #FFFFFE;"> Приветствуем Вас, AI34456Gtu!</td>
+                            <td class="greeting" align="center" colspan="3"
+                                style="padding-left: 16px; padding-top: 32px; padding-bottom: 32px;  background-color:  #1CB7D0;  font-style: normal; font-weight: bold; color: #FFFFFE;">
+                                Приветствуем Вас, AI34456Gtu!</td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="td-main quest" colspan="3" style="font-weight: bold; padding-top: 16px; padding-bottom: 16px; padding-left: 32px; padding-right: 32px; color: #0B0720; padding-bottom: 0px;">Ваш сайт посещают меньше, чем хотелось?</td>
+                            <td class="td-main quest" colspan="3"
+                                style="font-weight: bold; padding-top: 16px; padding-bottom: 16px; padding-left: 32px; padding-right: 32px; color: #0B0720; padding-bottom: 0px;">
+                                Ваш сайт посещают меньше, чем хотелось?</td>
                         </tr>
                         <tr>
-                            <td class="td-main propose" colspan="3" width="1300px" style="padding-top: 16px; padding-bottom: 16px; padding-left: 32px; padding-right: 32px; color: #222324;">Компания DigitalGC предлагает комплексный подход для достижения Ваших целей. Развить
+                            <td class="td-main propose" colspan="3"
+                                style="padding-top: 16px; padding-bottom: 16px; padding-left: 32px; padding-right: 32px; color: #222324;">
+                                Компания DigitalGC предлагает комплексный подход для достижения Ваших целей. Развить
                                 посещаемость сайта с помощью современных технологий в короткие сроки.</td>
                         </tr>
                         <tr>
                             <td class="td-main" colspan="3" style=" padding-top: 16px; padding-bottom: 16px; padding-left: 32px;
-                            font-size: 14px; padding-right: 32px; color: #222324; font-weight: 700;">Предлагаем два варианта узнать больше о нас и наших возможностях:</td>
-                        </tr>
-                        <tr>
-                            <td class="mobile-img" colspan="3" width="300" height="180" align="left" style="padding-left: 32px;">
-                                <img src="https://i.postimg.cc/JzCFpqhZ/mockup.png" alt="pc">
-                            </td>
+                        font-size: 14px; padding-right: 32px; color: #222324; font-weight: 700;">Предлагаем два
+                                варианта узнать больше о нас и наших возможностях:</td>
                         </tr>
 
-                        <tr width="80%">
-                            <td colspan="3" class="subtable">
-                                <table width="80%" cellpadding="0" cellspacing="0">
+
+                        <tr width="100%" class="desktop">
+                            <td colspan="3" class="subtable ">
+                                <table width="100%" cellpadding="0" cellspacing="0">
                                     <tr>
-                                        <td class="image-td" rowspan="2" align="center" width="200px" height="120px" style="padding-left: 32px;">
-                                            <img src="https://i.postimg.cc/JzCFpqhZ/mockup.png" alt="pc">
+                                        <td class="image-td" rowspan="2" align="center"
+                                            style="width:220px; height: 150px; padding-top: 16px; padding-bottom: 16px; padding-left: 16px; padding-right: 16px;">
+                                            <img src="https://i.postimg.cc/JzCFpqhZ/mockup.png" width="200px"
+                                                height="148px" alt="pc">
                                         </td>
-                                        <td class="text" width="50%" align="left" style="font-size: 14px;line-height: 1.2; padding-top: 16px; padding-bottom: 16px; padding-left: 32px; padding-right: 32px;">
+                                        <td class="text " width="50%" align="left"
+                                            style="font-size: 14px;line-height: 1.2; padding-top: 16px; padding-bottom: 16px; padding-left: 16px; padding-right: 16px;">
                                             Зайти на сайт и самостоятельно изучить наше предложение
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="button" width="300" align="left" colspan="2" style=" padding-top: 16px;  padding-bottom: 16px; padding-left: 32px; padding-right: 16px;"><a class="link" href="#"
-                                                style="text-align: center;">Перейти на сайт</a></td>
+                                        <td class="button " width="300" align="left" colspan="2"
+                                            style=" padding-top: 16px;  padding-bottom: 16px; padding-left: 16px; padding-right: 16px;">
+                                            <a class="link" href="#" style="text-align: center;">Перейти на сайт</a>
+                                        </td>
                                     </tr>
                                 </table>
                             </td>
 
                         </tr>
-                        <tr>
-                            <td class="mobile-img" colspan="3" width="300" height="180"  align="left" style="padding-left: 32px;">
-                                <img src="https://i.postimg.cc/tTDyjcYK/dispatcher.png" alt="pc">
-                            </td>
-                        </tr>
-                        <tr width="100%">
-                            <td colspan="3" class="subtable">
-                                <table width="80%" cellpadding="0" cellspacing="0">
+
+                        <tr class="mobile-text">
+                            <td>
+
+                                <table width="100%" cellpadding="0" cellspacing="0">
+
                                     <tr>
-                                        <td class="image-td" width="200px" height="120px" rowspan="2" align="center">
-                                            <img src="https://i.postimg.cc/tTDyjcYK/dispatcher.png" alt="pc">
+                                        <td class="image-td" align="center">
+                                            <img src="https://i.postimg.cc/JzCFpqhZ/mockup.png" alt="pc" width="200px"
+                                                height="148px">
                                         </td>
-                                        <td class="text" width="50%" align="left" style="font-size: 14px; line-height: 1.2; padding-top: 16px; padding-bottom: 16px; padding-left: 32px; padding-right: 32px;">
-                                            Выбрать разговор с менеджером, который подробно ответит на все Ваши вопросы
-                                            и поможет определиться. </td>
                                     </tr>
                                     <tr>
-                                        <td align="left" width="300" colspan="2" class="button" style=" padding-top: 16px; padding-bottom: 16px; padding-left: 32px;  padding-right: 16px;">
-                        <a class="link" href="#" style="text-align: center;">Заказать обратный звонок</a></td>
+                                        <td class="text" width="100%" align="left"
+                                            style="font-size: 14px; line-height: 1.2; padding-top: 16px; padding-bottom: 16px; padding-left: 16px; padding-right: 2px;">
+                                            Зайти на сайт и самостоятельно изучить наше предложение
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" width="100%" class="button"
+                                            style=" padding-top: 6px; padding-bottom: 6px; padding-left: 16px;  padding-right: 16px;">
+                                            <a class="link" href="#" style="text-align: center;">Перейти на сайт</a>
+                                        </td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
+
+
+                        <tr class="desktop" width="100%">
+                            <td colspan="3" class="subtable">
+                                <table width="100%" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td class="image-td" rowspan="2" align="center"
+                                            style="width:220px; height: 200px; padding-top: 16px; padding-bottom: 16px; padding-left: 16px; padding-right: 16px;">
+                                            <img src="https://i.postimg.cc/tTDyjcYK/dispatcher.png" alt="pc"
+                                                width="180px" height="181px">
+                                        </td>
+                                        <td class="text" width="50%" align="left"
+                                            style="font-size: 14px; line-height: 1.2; padding-top: 16px; padding-bottom: 16px; padding-left: 16px; padding-right: 16px;">
+                                            Выбрать разговор с менеджером, который подробно ответит на все Ваши вопросы
+                                            и поможет определиться.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" width="300" colspan="2" class="button"
+                                            style=" padding-top: 16px; padding-bottom: 16px; padding-left: 16px;  padding-right: 16px;">
+                                            <a class="link" href="#" style="text-align: center;">Заказать обратный
+                                                звонок</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- ======================= -->
+
+                        <!-- ======================= -->
+                        <tr class="mobile-text">
+                            <td>
+
+                                <table width="100%" cellpadding="0" cellspacing="0">
+
+                                    <tr>
+                                        <td class="image-td" align="center">
+                                            <img src="https://i.postimg.cc/tTDyjcYK/dispatcher.png" alt="pc"
+                                                width="180px" height="181px">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text" width="100%" align="left"
+                                            style="font-size: 14px; line-height: 1.2; padding-top: 16px; padding-bottom: 16px; padding-left: 16px; padding-right: 16px;">
+                                            Выбрать разговор с менеджером, который подробно ответит на все Ваши вопросы
+                                            и поможет определиться.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" width="100%" class="button"
+                                            style=" padding-top: 16px; padding-bottom: 16px; padding-left: 16px;  padding-right: 16px;">
+                                            <a class="link" href="#" style="text-align: center;">Заказать обратный
+                                                звонок</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr width="100%" height="16px">
+                            <td></td>
+                        </tr>
                         <tr width="90%">
-                            <td class="contacts" align="center" colspan="3" style="font-size: 14px;  color: #222324; font-weight: 700">
+                            <td class="contacts" align="center" colspan="3"
+                                style="font-size: 14px;  color: #222324; font-weight: 700">
                                 <p class="phone"> +7 (495) 155-5-155 </p>
                                 <p class="email"> digitalGC@gmail.com</p>
-                                <a href="#"><img src="https://i.postimg.cc/MpWvCF5w/whats-App-icon-dark.jpg"
-                                        alt="whatsApp-icon-dark" width="25px" class="social-icon"></a>
-                                <a href="#"><img src="https://i.postimg.cc/vZ7zGk5Z/telegram-icon-dark.jpg"
+                                <a href="#"
+                                    style="padding-left: 16px; padding-right: 16px; padding-top: 16px; padding-bottom: 16px;"><img
+                                        src="https://i.postimg.cc/tCgw23Ts/whatsapp.png" alt="whatsApp-icon-dark"
+                                        width="25px" class="social-icon"></a>
+                                <a href="#"
+                                    style="padding-left: 16px; padding-right: 16px; padding-top: 16px; padding-bottom: 16px;"><img
+                                        src="https://i.postimg.cc/WbDhLNvN/free-icon-telegram-2111644-1.png"
                                         alt="telegram-icon-dark" width="30px" class="social-icon"></a>
-                                <a href="#"><img src="https://i.postimg.cc/d0brd92x/vk-icon-dark.jpg" alt="vk-icon-dark"
+                                <a href="#"
+                                    style="padding-left: 16px; padding-right: 16px; padding-top: 16px; padding-bottom: 16px;"><img
+                                        src="https://i.postimg.cc/wTtF10MQ/vk.png" alt="vk-icon-dark" width="30px"
+                                        class="social-icon"></a>
+                                <a href="#"
+                                    style="padding-left: 16px; padding-right: 16px; padding-top: 16px; padding-bottom: 16px;"><img
+                                        src="https://i.postimg.cc/vmX5qVDm/youtube.png" alt="youtube-icon-dark"
                                         width="30px" class="social-icon"></a>
-                                <a href="#"><img src="https://i.postimg.cc/NF5xk0yN/youtube-icon-dark.jpg"
-                                        alt="youtube-icon-dark" width="30px" class="social-icon"></a>
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="3" align="center" class="unsubscribe" style="font-weight: 300; font-size: 12px;line-height: 14px;">
+                            <td colspan="3" align="center" class="unsubscribe"
+                                style="font-weight: 300; font-size: 12px;line-height: 14px;">
                                 <p>Не хотите получать писем от нашей компании? <a href="#"> Отписаться</a></p>
                             </td>
                         </tr>
@@ -279,4 +381,4 @@
     </table>
 </body>
 
-</html> 
+</html>
