@@ -1,2 +1,2 @@
 ## new mailing project
-# https://sofyapim.github.io/mailing/
+# https://sofyapim.github.io/mailing/index.html
